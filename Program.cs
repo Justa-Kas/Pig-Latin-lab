@@ -18,8 +18,8 @@ namespace ConsoleApp12
         }
         public static string PigLatinConverter(string takeWord)
         {
-            takeWord.ToLower();
-            takeWord.Trim();
+            takeWord=takeWord.ToLower();
+            TakeWord=takeWord.Trim();
             char[] vowels = new char[] { 'a', 'e', 'i', 'o', 'u'};
             foreach (char v in vowels)
             {
